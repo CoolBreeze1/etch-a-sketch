@@ -3,18 +3,39 @@
 
 
 
-body h1{
-  text-align: center;
-};
+h1{
+    text-align: center;
+    font-style: italic;
+  }
 
-#reset_button{
+  #reset_button {
+    text-align: center;
+    margin:10px
+  }
+
+  #reset{
+    width:150px;
+    height:30px;
+    border-radius:10px;
+    background-color:gray;
+    font-family:serif;
+    font-size:18px;
+    font-weight: bold;
+  }
+
+.grid{
+
+margin:auto;
+width:500px;
+height:500px;
+border:1px solid red;
+border-radius: 3px;
+}
+
+.square{
+  float:left;
+  background:black;
+  outline:1px solid red;
 
 
-};
-
- #reset_button button{
-
-};
-.container{};
-
-table{};
+}
