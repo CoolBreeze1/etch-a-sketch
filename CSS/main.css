@@ -8,12 +8,12 @@ h1{
     font-style: italic;
   }
 
-  #reset_button {
+  #reset_buttons {
     text-align: center;
     margin:10px
   }
 
-  #reset{
+  #reset-normal{
     width:150px;
     height:30px;
     border-radius:10px;
@@ -23,19 +23,43 @@ h1{
     font-weight: bold;
   }
 
-.grid{
+  #reset-randomColor{
+  width:150px;
+  height:30px;
+  border-radius:10px;
+  background-color:gray;
+  font-family:serif;
+  font-size:18px;
+  font-weight: bold;
+}
 
+#reset-fadeInColor{
+  width:150px;
+  height:30px;
+  border-radius:10px;
+  background-color:gray;
+  font-family:serif;
+  font-size:18px;
+  font-weight: bold;
+}
+
+.grid{
 margin:auto;
 width:500px;
 height:500px;
-border:1px solid red;
-border-radius: 3px;
+
 }
 
 .square{
   float:left;
   background:black;
-  outline:1px solid red;
+  border:.1px;
+  border-radius:10px;
+}
 
-
+.square-randomColor{
+  float:left;
+  background:black;
+  border:.1px;
+  border-radius:10px;
 }
